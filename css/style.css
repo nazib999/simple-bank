@@ -1,0 +1,42 @@
+#login-area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+.submit-area{
+    
+ margin-top: 100px;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px gray;
+ padding: 40px;
+}
+#transation-area{
+display: none;
+margin-top: 70px;
+        
+    }
+.status{
+ border-radius: 10px;
+ padding: 20px;
+ margin: 0 20px;
+}
+.deposit{
+background-color: steelblue;
+}
+.withdraw{
+background-color: lightgreen;
+}
+.balence{
+background-color: orange;
+}
+@font-face {
+    font-family: reey;
+    src: url(../resources/font/Reey-Regular.otf);
+}
+.heading{
+    font-family: reey;
+    font-weight: 600;
+    font-size: 50px;
+}
