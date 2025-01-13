@@ -1,4 +1,4 @@
-  <script>
+
    const login= document.getElementById('login-area');
    const transation=document.getElementById('transation-area');
    const btnClick=document.getElementById('login')
@@ -39,4 +39,4 @@
     else{alert('Balence is not suficcient');
     document.getElementById('withdrawInput').value=''}
    })
-  </script>
+
